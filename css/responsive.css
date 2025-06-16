@@ -1,13 +1,15 @@
 :root {
-  --primary-color: #8e2de2;      /* Rich Purple (used in the figure) */
-  --secondary-color: #1283c6;    /* Deep Blue (left part of lotus) */
-  --accentColour: #c471ed;       /* Light Magenta-Purple (highlight) */
+  --primary-color: #b77822;      
+  --secondary-color: #966117;    
+  --accentColour: #ce9a51;          
   --black: #1d1d1d;
-  --lightBg: #e6ddf0;            /* Very light lavender for background */
-  --lightGrey: #dcd6e6;          /* Soft grey-purple for borders */
-  --fade: #c1ace6;               /* Faded lavender-purple for shadows */
-  --extraLight: #f9f7fc;         /* Almost white with lavender tint */
+  --lightBg: #fdf3e5;            
+  --lightGrey: #dcd6e6;          
+  --fade: #f2d1a4;              
+  --extraLight: #fef9f1;         
 }
+
+
 @media (max-width: 1399.98px) {
   
 }

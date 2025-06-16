@@ -32,8 +32,6 @@
   position: relative;
 }
 
-
-
 .miniHeader {
   overflow: hidden;
 }
@@ -47,15 +45,16 @@
 
 
 :root {
-  --primary-color: #8e2de2;      /* Rich Purple (used in the figure) */
-  --secondary-color: #1283c6;    /* Deep Blue (left part of lotus) */
-  --accentColour: #c471ed;       /* Light Magenta-Purple (highlight) */
+  --primary-color: #b77822;      
+  --secondary-color: #966117;    
+  --accentColour: #ce9a51;  
   --black: #1d1d1d;
-  --lightBg: #e6ddf0;            /* Very light lavender for background */
-  --lightGrey: #dcd6e6;          /* Soft grey-purple for borders */
-  --fade: #c1ace6;               /* Faded lavender-purple for shadows */
-  --extraLight: #f9f7fc;         /* Almost white with lavender tint */
+  --lightBg: #fdf3e5;            
+  --lightGrey: #dcd6e6;          
+  --fade: #f2d1a4;              
+  --extraLight: #fef9f1;         
 }
+
 
 * {
   box-sizing: border-box;
@@ -454,15 +453,15 @@ img {
 }
 
 #ca1.owl-carousel .item1 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+  background: linear-gradient(#000000a2, #000000a2) 0 0 / cover,
     url("../image/AstrobannBack.webp") center/cover no-repeat;
 }
 #ca1.owl-carousel .item2 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+  background: linear-gradient(#000000a2, #000000a2) 0 0 / cover,
     url("../image/AstrobannBack.webp") center/cover no-repeat;
 }
 #ca1.owl-carousel .item3 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
+  background: linear-gradient(#000000a2, #000000a2) 0 0 / cover,
     url("../image/AstrobannBack.webp") center/cover no-repeat;
 }
 #ca1.owl-carousel .item2 .bannerCard,
@@ -893,6 +892,10 @@ max-width: 175px;
   margin: auto;
   margin-bottom: 16px;
 }
+.astroServiceCard a{
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .astrologyServices .container>.row{
   row-gap: 24px;
 }
@@ -910,32 +913,13 @@ max-width: 175px;
 .astroServiceCard:hover .astrocardText{
   color: #ffffff;
 }
-.astroServiceCard:hover .astrocardText p{
+.astroServiceCard:hover .astrocardText p,.astroServiceCard:hover a{
   color: #ffffff;
 }
+
 /* astrology Services end */
 
 
-/* राशि section start */
-.rashiSection{
-  background-color: var(--lightBg);
-}
-.rashiSection .container>.row{
-  row-gap: 24px;
-}
-.ZodiacCards {
-  text-align: center;
-  background-color: var(--fade);
-  padding: 12px;
-  color: var(--primary-color);
-}
-.birthDates{
-  padding: 8px;
-  background-color: var(--secondary-color);
-  border-radius: 4px;
-  color: #ffffff;
-}
-/* राशि section end */
 
 
 /* Vastu for Your Space start */
@@ -1038,3 +1022,47 @@ max-width: 175px;
   border-radius: 8px;
 }
 /* Expert Tips for Mental Wellness section end */
+
+
+ /* about Section start */
+.aboutSection img{
+  border-radius: 8px;
+}
+.aboutSection .therdH{
+  color: var(--primary-color);
+}
+/* about Section end */
+
+.pointWrapper{
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--lightGrey);
+  margin-top: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.journeyCard{
+display: flex;
+gap: 8px;
+background-color: var(--extraLight);
+}
+.journeyCard:not(.journeyCard:first-child){
+  border-top: 1px solid var(--lightGrey);
+  padding-top: 16px;
+}
+.journeyIcon{
+  height: 54px;
+  width: 54px;
+  flex: 0 0 auto;
+} 
+
+.JourneyInfo{
+  flex: 1 0 0%;
+}
+.JourneyInfo .fourthH{
+  color: var(--primary-color);
+}
+.JourneyInfo p{
+font-size: 14px;
+}
