@@ -506,7 +506,7 @@ img {
 /* new Footer start */
 .footer{
   color: #ffffff;
-  background: linear-gradient(140deg, #1283c6 -40%, #6b57a5 50%);
+  background: linear-gradient(140deg, #ce9a51 -40%, #966117 50%);
 }
 .footerBrandLogo{
   display: table;
@@ -542,7 +542,7 @@ img {
   width: 100%;
   scale: 0%;
   border-radius: 50%;
-  background-color: var(--secondary-color);
+  background-color: var(--black);
   transition: scale 0.3s ease-in-out;
   z-index: -1;
 }
@@ -745,6 +745,9 @@ font-weight: bold;
 .ReviewText p.fourthH{
 font-weight: 400;
 }
+.testimonialSection{
+  background-color: var(--extraLight);
+}
 .testimonialSection .row{
   row-gap: 24px;
 }
@@ -836,7 +839,7 @@ margin-bottom: 0;
 
 .form-control{
   border: none;
-  box-shadow: #6956a433  0px 1px 0px, #6956a433  0px 8px 24px, #6956a433  0px 16px 48px;
+  box-shadow: #e2c6a3  0px 1px 0px, #e7dbcd  0px 4px 12px, #e7d9c6  0px 8px 18px;
 }
 textarea.form-control{
   resize: none;
@@ -845,7 +848,7 @@ textarea.form-control{
 .form-control:focus {
     background-color: #fff;
     border-color: #86b7fe;
-    box-shadow: #6956a466 0px 1px 0px, #6956a466  0px 8px 24px, #6956a466  0px 16px 48px;
+    box-shadow: #e2c6a3 0px 1px 0px, #d1bea9  0px 8px 24px, #e6d6c1  0px 16px 48px;
   }
   
   
