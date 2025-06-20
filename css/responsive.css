@@ -85,7 +85,7 @@ max-width: 342px;
 }
 .newBanner{
   padding: 120px 0;
-  background: url('../image/newBannMobBack.webp') center no-repeat,linear-gradient(#8e2de2,#8e2de2);
+  background: url('../image/ServiceQuotes.webp') right no-repeat;
 }
 
 }

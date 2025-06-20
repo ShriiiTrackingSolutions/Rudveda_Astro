@@ -790,11 +790,11 @@ justify-content: center;
 
 .newBanner{
   padding: 120px 0;
-  background: url('../image/NewBanner.webp') right/cover no-repeat;
+  background: url('../image/ServiceQuotes.webp') right/cover no-repeat;
 }
 
 .newBanner .display-2{
-color: #ffffff;
+color: var(--primary-color);
 text-align: center;
 margin-bottom: 0;
 }
@@ -961,7 +961,7 @@ max-width: 175px;
 
 /* Explore Vastu section start */
 .exploreVastu {
-  background: linear-gradient(#8d2de2c4,#8d2de2c4), url('../image/exploreVastuBack.webp') no-repeat center;
+  background: linear-gradient(#b77922cb,#b77922cb), url('../image/exploreVastuBack.webp') no-repeat center;
   background-size: cover,cover;
   color: #ffffff;
 }
