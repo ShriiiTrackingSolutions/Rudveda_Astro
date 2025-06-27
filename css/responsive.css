@@ -18,8 +18,7 @@
     font-size: 48px;
     line-height: 84px;
   }
-  .secH,
-  .therdH {
+  .secH {
     line-height: 62px;
   }
   .secH {
@@ -111,7 +110,11 @@ max-width: 342px;
   .defaultPadding {
     padding: 50px 0;
   }
- 
+  
+  .formSection .formPart {
+    padding: 60px 40px;
+    background: var(--lightBg);
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -120,6 +123,11 @@ max-width: 342px;
   }
   .ZodiacCards .birthDates{
     font-size: 12px;
+  }
+
+   .formSection .formPart {
+    padding: 45px 30px;
+    background: var(--lightBg);
   }
 
 }

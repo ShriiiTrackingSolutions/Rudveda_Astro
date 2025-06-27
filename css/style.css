@@ -100,7 +100,6 @@ img {
   font-style: normal;
   font-display: swap;
   font-size: 28px;
-  line-height: 40px;
   margin: 0 0 20px;
 }
 
@@ -832,10 +831,38 @@ margin-bottom: 0;
 .formSection img{
   border-radius: 12px;
 }
+.formSection .formPart{
+  padding: 100px 80px;
+  background: url('../image/FormBackServices.jpg') center/cover no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+.formSection .ContactForm{
+  position: relative;
+  isolation: isolate;
+}
+.formSection .ContactForm::before{
+  content: "";
+  position: absolute;
+  height: calc(100% + 44px);
+  width: calc(100% + 20px);
+  backdrop-filter: blur(2px);
+  background-color: #faefdf7a;
+  border: 1px solid #ffffff9f;
+  border-radius: 16px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
 
 .form-label{
   margin-top: 16px;
   color: var(--primary-color);
+}
+.formSection .col-12:first-child .form-label{
+  margin-top: 0;
 }
 
 .form-control{
@@ -845,6 +872,9 @@ margin-bottom: 0;
 textarea.form-control{
   resize: none;
 }
+.form-control:not(textarea.form-control){
+  height: 46px;
+}
 
 .form-control:focus {
     background-color: #fff;
@@ -853,8 +883,16 @@ textarea.form-control{
 
 .form-select{
   border: none;
+  height: 46px;
   box-shadow: #e2c6a3  0px 1px 0px, #e7dbcd  0px 4px 12px, #e7d9c6  0px 8px 18px;
 }
+.form-select option:disabled{
+  background-color: var(--accentColour);
+  color: #ffffff;
+}
+
+
+
 
 .form-select:focus {
     outline: 0;
@@ -901,6 +939,7 @@ max-width: 175px;
 
 /* astrology Services start */
 .astroServiceCard{
+  position: relative;
   height: 100%;
   text-align: center;
   padding: 12px;
@@ -914,6 +953,10 @@ max-width: 175px;
 .astroServiceCard a{
   color: var(--primary-color);
   font-weight: bold;
+}
+.astroServiceCard .absAnchor{
+  position: absolute;
+  inset: 0;
 }
 .astrologyServices .container>.row{
   row-gap: 24px;
@@ -1089,12 +1132,28 @@ font-size: 14px;
 
 /* service sub pages start */
 .quoteSection{
-  background:url("../image/ServiceQuotes.webp") right/cover no-repeat;
+  background: #faefdf;
 }
 .quoteSection p{
   color: var(--secondary-color);
 }
 .serviceDescription{
-  background-color: var(--extraLight);
+  background: url('../image/ServicePageBack.webp') center/cover no-repeat;
 }
+.serviceDescription img{
+  border-radius: 16px;
+}
+.serviceDescription  .container>.row{
+  row-gap: 24px;
+}
+
+.descriptionPart{
+  background-color: #fdf3e5e3;
+  padding: 12px;
+  border-radius: 16px;
+}
+.extraDescription{
+  background-color: var(--lightBg);
+}
+
 /* service sub pages end */
