@@ -36,7 +36,7 @@ function loadHeaderFooter(callback) {
   document.getElementById("header").innerHTML = `  <nav class="mynavbar bg-light">
               <div class="container-fluid header">
                 <a class="brandLogo" href="index.html">
-                  <img src="image/RudvedaLogo.webp" alt="Rudveda Logo">
+                  <img src="image/RudvedaLogo.webp" alt="Astro Rudveda Logo">
                 </a>
                 <button class="navToggle">
                   <i class="fa fa-bars" aria-hidden="true"></i>
@@ -46,6 +46,33 @@ function loadHeaderFooter(callback) {
                     <button class="btn-nav-close"><span class="close-btn">+</span></button>
                   </li>
                   <li class="navLi"><a class="navLink" href="index.html">Home</a></li>
+                  <li class="navLi">
+                    <a href="#" class="navLink">Jyotish Services<span class="toggleSub">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="m8 10.207l3.854-3.853l-.707-.708L8 8.793L4.854 5.646l-.708.708z" clip-rule="evenodd" stroke-width="0.5" stroke="currentColor"/></svg>
+                      </span>
+                    </a>
+                    <ul class="dropdownList">
+                      <li class="navLi">
+                        <a href="kundliMaking.html" class="navLink">Kundli Making</a>
+                      </li>
+                      <li class="navLi">
+                        <a href="VastuConsultancy.html" class="navLink">Astro Vastu Consultancy</a>
+                      </li>
+                      <li class="navLi">
+                        <a href="faceReading.html" class="navLink">Face Reading</a>
+                      </li>
+                      <li class="navLi">
+                        <a href="tarotCardReading.html" class="navLink">Tarot Card Reading</a>
+                      </li>
+                      <li class="navLi">
+                        <a href="prashnaKundli.html" class="navLink">Prashna Kundli</a>
+                      </li>
+                      <li class="navLi">
+                        <a href="palmistryReading.html" class="navLink">Palmistry Reading</a>
+                      </li>
+                     
+                    </ul>
+                  </li>
                   <li class="navLi"><a class="navLink" href="vastu.html">Vastu</a></li>
                   <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                 </ul>
@@ -55,7 +82,7 @@ function loadHeaderFooter(callback) {
   document.getElementById("footer").innerHTML = `<div class="container">
         <div class="container">
         <div class="footWrap defaultPadding">
-             <a href="" class="footerBrandLogo"><img src="image/RudvedaLogoWhite.webp" alt="Rudveda Logo"></a>
+             <a href="" class="footerBrandLogo"><img src="image/RudvedaLogoWhite.webp" alt="Astro Rudveda Logo"></a>
               <div class="socialIons">
                 <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
                 <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
@@ -83,7 +110,7 @@ function loadHeaderFooter(callback) {
                       </div>
                       <div class="footConText">
                         <h5 class="fifthH">Mail Us</h5>
-                        <a class="footerLinkHover" target="_blank" href="mailto:rudveda4@yoga.com">rudveda4@yoga.com</a>  
+                        <a class="footerLinkHover" target="_blank" href="mailto:contact@astrorudveda.com">contact@astrorudveda.com</a>  
                       </div>
                     </div>
                   </div>
@@ -94,7 +121,7 @@ function loadHeaderFooter(callback) {
                       </div>
                       <div class="footConText">
                         <h5 class="fifthH">Main Center</h5>
-                        <a class="footerLinkHover" target="_blank" href="https://maps.app.goo.gl/QuEBXvCtkPd3TiQA9">202 Siddharth Patel Square, Near HDFC BANK, Malhar Point, OP Road, Vadodara, 390015</a>
+                        <a class="footerLinkHover" target="_blank" href="https://maps.app.goo.gl/hELwQbXjBiNKiPRn7">202 SP SQUARE, OP ROAD, VADODARA</a>
                       </div>
                     </div>
                   </div>
@@ -112,7 +139,7 @@ function loadHeaderFooter(callback) {
           <div class="row ">
             <div class="col-12">
               <div class="inner">
-                <div class="copyright text-center"> <span class="year"></span>  All Rights Reserved by Rudveda | Developed by <a href="https://shriiitrackingsolution.in/" target="_blank">
+                <div class="copyright text-center"> <span class="year"></span>  All Rights Reserved by Astro Rudveda | Developed by <a href="https://shriiitrackingsolution.in/" target="_blank">
                     <b>Shriii&nbsp;Tracking&nbsp;Solution</b>
                   </a>
                 </div>

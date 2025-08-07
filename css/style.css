@@ -996,6 +996,9 @@ max-width: 175px;
 .ulStyles li::marker {
     color: var(--secondary-color);
 }
+.VastuForYourSpace .ulStyles{
+  font-size: 16px;
+}
 .VastuForYourSpace .container>.row{
   align-items: center;
   row-gap: 24px;
@@ -1020,6 +1023,9 @@ max-width: 175px;
 /* Explore Vastu section end */
 
 /* Why Vastu section start */
+.whyVastu .ulStyles{
+  font-size: 16px
+}
 .whyVastu .therdH{
   color: var(--primary-color);
 }
