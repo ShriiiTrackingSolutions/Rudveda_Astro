@@ -608,9 +608,6 @@
   window.addEventListener('load', updateItemMinHeights);
   window.addEventListener('resize', updateItemMinHeights);
 
-        // autoplay: true,
-        // autoplayTimeout: 4000,
-        // autoplayHoverPause: true,
     $("#testimonials").owlCarousel({
         loop: true,
         margin: 0,
@@ -618,7 +615,9 @@
         dots: true,
         dotsEach: 1,
         animateOut: "fadeOut",
-
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
         responsive: {
           0: { items: 1 },
           600: { items: 1 },
