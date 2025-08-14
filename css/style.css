@@ -1099,6 +1099,9 @@ max-width: 175px;
 .aboutSection .therdH{
   color: var(--primary-color);
 }
+.aboutSection .container>.row{
+  row-gap: 34px;
+}
 /* about Section end */
 
 .pointWrapper{
