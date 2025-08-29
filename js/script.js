@@ -1,8 +1,8 @@
 // WhatsApp URL Adjuster (Responsive)
 (function () {
   const whatsappLinks = [
-    "https://web.whatsapp.com/send?phone=919429184432",
-    "https://api.whatsapp.com/send?phone=919429184432"
+    "https://web.whatsapp.com/send?phone=917016965955",
+    "https://api.whatsapp.com/send?phone=917016965955"
   ];
 
   function updateWhatsAppLink() {
@@ -98,7 +98,7 @@ function loadHeaderFooter(callback) {
                       </div>
                       <div class="footConText">
                         <h5 class="fifthH">Call Us</h5>
-                        <a class="footerLinkHover" target="_blank" href="tel:+919429184432"> +91 94291 84432</a>
+                        <a class="footerLinkHover" target="_blank" href="tel:+917016965955"> +91 70169 65955</a>
                        
                       </div>
                     </div>
